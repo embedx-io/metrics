@@ -42,7 +42,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> no<br></td>
   </tr>
@@ -53,6 +54,7 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td nowrap="nowrap">🔐 Token<br>
+✨ On <code>master</code>/<code>main</code><br>
 🌐 Web instances must configure <code>settings.json</code>:
 <ul>
 <li><i>metrics.api.nintendo.splatnet</i></li>
@@ -71,7 +73,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>array</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>array</code>
 <i>(comma-separated)</i>
 <br>
 <b>default:</b> player, versus, salmon-run<br></td>
@@ -82,7 +85,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <i>(0 ≤
 𝑥
 ≤ 6)</i>
@@ -95,7 +99,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <i>(0 ≤
 𝑥
 ≤ 6)</i>
@@ -110,7 +115,8 @@ Requires <a href="/source/plugins/community/splatoon/README.md#plugin_splatoon_s
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap">🌐 Web instances must configure <code>settings.json</code>:
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+🌐 Web instances must configure <code>settings.json</code>:
 <ul>
 <li><i>metrics.api.statink</i></li>
 </ul>
@@ -125,6 +131,7 @@ Requires <a href="/source/plugins/community/splatoon/README.md#plugin_splatoon_s
   </tr>
   <tr>
     <td nowrap="nowrap">🔐 Token<br>
+✨ On <code>master</code>/<code>main</code><br>
 <b>type:</b> <code>token</code>
 <br></td>
   </tr>
@@ -141,6 +148,7 @@ Requires <a href="/source/plugins/community/splatoon/README.md#plugin_splatoon_s
   <tr>
     <td nowrap="nowrap">⏯️ Cannot be preset<br>
 🔧 For development<br>
+✨ On <code>master</code>/<code>main</code><br>
 <b>type:</b> <code>string</code>
 <br>
 <b>default:</b> splatnet<br>
@@ -184,7 +192,7 @@ Data are fetched using [spacemeowx2/s3si.ts](https://github.com/spacemeowx2/s3si
 <!--examples-->
 ```yaml
 name: Splatnet data
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.splatoon.svg
   token: NOT_NEEDED
@@ -195,7 +203,7 @@ with:
 ```
 ```yaml
 name: Splatnet data with stat.ink integration
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.splatoon.svg
   token: NOT_NEEDED

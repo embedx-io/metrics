@@ -230,7 +230,7 @@ function quit(reason) {
 
     //Check for new versions
     if (_notice_releases) {
-      const {data: [{tag_name: tag}]} = await rest.repos.listReleases({owner: "lowlighter", repo: "metrics"})
+      const {data: [{tag_name: tag}]} = await rest.repos.listReleases({owner: "embedx-io", repo: "metrics"})
       const current = Number(conf.package.version.match(/(\d+\.\d+)/)?.[1] ?? 0)
       const latest = Number(tag.match(/(\d+\.\d+)/)?.[1] ?? 0)
       if (latest > current)

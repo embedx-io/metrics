@@ -94,7 +94,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>string</code>
 <br>
 <b>default:</b> Sponsor Me!<br></td>
   </tr>
@@ -106,7 +107,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 <!--examples-->
 ```yaml
 name: Sponsors goal
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.sponsors.svg
   token: ${{ secrets.METRICS_TOKEN_PERSONAL }}
@@ -118,7 +119,7 @@ with:
 ```
 ```yaml
 name: Sponsors introduction
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.sponsors.full.svg
   token: ${{ secrets.METRICS_TOKEN_WITH_SCOPES }}

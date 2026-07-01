@@ -28,7 +28,7 @@
 <!--examples-->
 ```yaml
 name: Example
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   template: terminal
   filename: metrics.terminal.svg

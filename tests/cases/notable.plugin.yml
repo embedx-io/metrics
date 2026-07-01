@@ -1,12 +1,12 @@
 - name: 🎩 Notable contributions - Contributions
-  uses: lowlighter/metrics@latest
+  uses: embedx-io/metrics@latest
   with:
     token: MOCKED_TOKEN
     plugin_notable: 'yes'
     use_mocked_data: 'yes'
     verify: 'yes'
 - name: 🎩 Notable contributions - Indepth analysis
-  uses: lowlighter/metrics@latest
+  uses: embedx-io/metrics@latest
   with:
     token: MOCKED_TOKEN
     plugin_notable: 'yes'

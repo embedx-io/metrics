@@ -156,7 +156,7 @@ Each modified file by a contributor matching a file glob will add them in said c
 <!--examples-->
 ```yaml
 name: Contributors with contributions count
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.contributors.contributions.svg
   token: ${{ secrets.METRICS_TOKEN }}
@@ -169,7 +169,7 @@ with:
 ```
 ```yaml
 name: Contributors by categories
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.contributors.categories.svg
   token: ${{ secrets.METRICS_TOKEN }}

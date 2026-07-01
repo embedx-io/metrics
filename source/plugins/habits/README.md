@@ -65,6 +65,7 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td nowrap="nowrap">⏩ Inherits <code>repositories_skipped</code><br>
+✨ On <code>master</code>/<code>main</code><br>
 <b>type:</b> <code>array</code>
 <i>(newline-separated)</i>
 <br></td>
@@ -149,7 +150,8 @@ Recent language activity may also displayed (it requires extras features to be e
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <i>(0 ≤
 𝑥
 ≤ 8)</i>
@@ -163,7 +165,8 @@ Recent language activity may also displayed (it requires extras features to be e
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>string</code>
 <br>
 <b>default:</b> 0%<br></td>
   </tr>
@@ -188,7 +191,7 @@ Configure `config_timezone` (see [supported timezone](https://en.wikipedia.org/w
 <!--examples-->
 ```yaml
 name: Mildly interesting facts
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.habits.facts.svg
   token: ${{ secrets.METRICS_TOKEN }}
@@ -201,7 +204,7 @@ with:
 ```
 ```yaml
 name: Recent activity charts
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.habits.charts.svg
   token: ${{ secrets.METRICS_TOKEN }}

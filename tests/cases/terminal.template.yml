@@ -1,5 +1,5 @@
 - name: 📙 Terminal template - Example
-  uses: lowlighter/metrics@latest
+  uses: embedx-io/metrics@latest
   with:
     template: terminal
     token: MOCKED_TOKEN

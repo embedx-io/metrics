@@ -103,7 +103,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>array</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>array</code>
 <i>(comma-separated)</i>
 <br></td>
   </tr>
@@ -113,7 +114,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>string</code>
 <br></td>
   </tr>
   <tr>
@@ -158,7 +160,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 <!--examples-->
 ```yaml
 name: Featured star list
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.starlists.svg
   token: NOT_NEEDED
@@ -170,7 +172,7 @@ with:
 ```
 ```yaml
 name: Featured star list languages
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.starlists.languages.svg
   token: NOT_NEEDED

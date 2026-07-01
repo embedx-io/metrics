@@ -83,7 +83,8 @@ This currently improves the accuracy of the following statistics:</p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> no<br></td>
   </tr>
@@ -97,7 +98,8 @@ Only use this option when using a plugin that can be configured with <a href="/s
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> no<br></td>
   </tr>
@@ -205,7 +207,7 @@ Broad affiliations will result in less representative metrics.</p>
 <!--examples-->
 ```yaml
 name: Default metrics
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.base.svg
   token: ${{ secrets.METRICS_TOKEN }}

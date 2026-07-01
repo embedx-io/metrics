@@ -88,7 +88,8 @@
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>string</code>
 <br>
 <b>default:</b> image<br>
 <b>allowed values:</b><ul><li>image</li><li>text</li></ul></td>
@@ -99,7 +100,8 @@
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>json</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>json</code>
 <br>
 <b>default:</b> <details><summary>→ Click to expand</summary><pre language="json"><code>{
   "width": 1280,
@@ -113,7 +115,8 @@
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <i>(0 ≤
 𝑥)</i>
 <br>
@@ -137,7 +140,7 @@
 <!--examples-->
 ```yaml
 name: XKCD of the day
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.screenshot.svg
   token: NOT_NEEDED

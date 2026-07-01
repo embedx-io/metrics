@@ -1,5 +1,5 @@
 - name: 📗 Classic template - Example
-  uses: lowlighter/metrics@latest
+  uses: embedx-io/metrics@latest
   with:
     token: MOCKED_TOKEN
     base: header, repositories

@@ -137,24 +137,24 @@ The `embed()` function takes two arguments:
 <!--examples-->
 ```yaml
 name: Example
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   template: markdown
   filename: metrics.markdown.md
   markdown: >-
-    https://raw.githubusercontent.com/lowlighter/metrics/examples/metrics.markdown.template.md
+    https://raw.githubusercontent.com/embedx-io/metrics/examples/metrics.markdown.template.md
   config_output: markdown
   token: ${{ secrets.METRICS_TOKEN }}
 
 ```
 ```yaml
 name: Example with plugins configuration for embed use
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   template: markdown
   filename: metrics.markdown.full.md
   markdown: >-
-    https://raw.githubusercontent.com/lowlighter/metrics/master/source/templates/markdown/example.md
+    https://raw.githubusercontent.com/embedx-io/metrics/master/source/templates/markdown/example.md
   config_output: markdown
   plugin_activity: yes
   plugin_activity_limit: 7
@@ -177,12 +177,12 @@ with:
 ```
 ```yaml
 name: Example (pdf output)
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   template: markdown
   filename: metrics.markdown.pdf
   markdown: >-
-    https://raw.githubusercontent.com/lowlighter/metrics/master/source/templates/markdown/example.pdf.md
+    https://raw.githubusercontent.com/embedx-io/metrics/master/source/templates/markdown/example.pdf.md
   config_output: markdown-pdf
   plugin_rss: yes
   plugin_rss_source: https://news.ycombinator.com/rss

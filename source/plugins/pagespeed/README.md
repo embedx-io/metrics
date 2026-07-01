@@ -110,7 +110,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> no<br></td>
   </tr>
@@ -122,7 +123,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 <!--examples-->
 ```yaml
 name: Succinct report
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.pagespeed.svg
   token: NOT_NEEDED
@@ -134,7 +135,7 @@ with:
 ```
 ```yaml
 name: Detailed report
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.pagespeed.detailed.svg
   token: NOT_NEEDED
@@ -147,7 +148,7 @@ with:
 ```
 ```yaml
 name: Screenshot
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.pagespeed.screenshot.svg
   token: NOT_NEEDED
@@ -160,7 +161,7 @@ with:
 ```
 ```yaml
 name: Succinct report with PWA
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.pagespeed.svg
   token: NOT_NEEDED

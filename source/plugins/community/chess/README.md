@@ -40,7 +40,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> no<br></td>
   </tr>
@@ -51,6 +52,7 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td nowrap="nowrap">🔐 Token<br>
+✨ On <code>master</code>/<code>main</code><br>
 🌐 Web instances must configure <code>settings.json</code>:
 <ul>
 <li><i>metrics.api.chess.any</i></li>
@@ -65,6 +67,7 @@ All product and company names are trademarks™ or registered® trademarks of th
   </tr>
   <tr>
     <td nowrap="nowrap">⏯️ Cannot be preset<br>
+✨ On <code>master</code>/<code>main</code><br>
 <b>type:</b> <code>string</code>
 <br>
 <b>default:</b> <code>→ User login</code><br></td>
@@ -75,7 +78,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>string</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>string</code>
 <br>
 <b>allowed values:</b><ul><li>lichess.org</li></ul></td>
   </tr>
@@ -90,7 +94,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>json</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>json</code>
 <br>
 <b>default:</b> <details><summary>→ Click to expand</summary><pre language="json"><code>{
   "size": 40,
@@ -121,7 +126,7 @@ Create token and store it in your secrets:
 <!--examples-->
 ```yaml
 name: Last chess game from lichess.org
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.chess.svg
   token: NOT_NEEDED

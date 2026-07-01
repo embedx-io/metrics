@@ -188,7 +188,8 @@ In this case the repository must be accessible directly.</p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>array</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>array</code>
 <i>(comma-separated)</i>
 <br></td>
   </tr>
@@ -211,7 +212,8 @@ In this case the repository must be accessible directly.</p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <i>(0 ≤
 𝑥
 ≤ 15)</i>
@@ -444,7 +446,7 @@ To mitigate this, it is possible to use `plugin_languages_aliases` option and pr
 <!--examples-->
 ```yaml
 name: Most used
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.languages.svg
   token: ${{ secrets.METRICS_TOKEN }}
@@ -458,7 +460,7 @@ with:
 ```
 ```yaml
 name: Most used (with details)
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.languages.details.svg
   token: ${{ secrets.METRICS_TOKEN }}
@@ -473,7 +475,7 @@ with:
 ```
 ```yaml
 name: Recently used
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.languages.recent.svg
   token: ${{ secrets.METRICS_TOKEN }}
@@ -489,7 +491,7 @@ with:
 ```
 ```yaml
 name: Indepth analysis
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.languages.indepth.svg
   token: ${{ secrets.METRICS_TOKEN }}

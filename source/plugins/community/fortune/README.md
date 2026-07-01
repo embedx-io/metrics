@@ -49,7 +49,7 @@
 <!--examples-->
 ```yaml
 name: Fortune
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.fortune.svg
   token: NOT_NEEDED

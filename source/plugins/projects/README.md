@@ -124,13 +124,13 @@ Be sure to tick `Track project progress` in project settings to display a progre
 <!--examples-->
 ```yaml
 name: Project from a repository
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.projects.svg
   token: ${{ secrets.METRICS_TOKEN_WITH_SCOPES }}
   base: ""
   plugin_projects: yes
-  plugin_projects_repositories: lowlighter/metrics/projects/1
+  plugin_projects_repositories: embedx-io/metrics/projects/1
   plugin_projects_descriptions: yes
 
 ```

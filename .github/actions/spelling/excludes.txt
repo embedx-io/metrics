@@ -53,6 +53,7 @@ ignore$
 ^\Qsource/templates/classic/partials/splatoon.ejs\E$
 ^\Qsource/templates/markdown/example.md\E$
 ^\Qsource/templates/terminal/fonts.css\E$
+^\Qsource/templates/classic/fonts.css\E$
 ^\Qsource/templates/terminal/partials/screenshot.ejs\E$
 ^\Qtests/mocks/api/github/rest/emojis/get.mjs\E$
 ^\Qtests/mocks/api/axios/get/lichess.mjs\E$

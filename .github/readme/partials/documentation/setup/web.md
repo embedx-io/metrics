@@ -21,7 +21,7 @@ No additional scopes are required.
 
 Fetch a copy of [`settings.example.json`](/settings.example.json) and rename it `settings.json`
 ```shell
-wget https://raw.githubusercontent.com/lowlighter/metrics/master/settings.example.json
+wget https://raw.githubusercontent.com/embedx-io/metrics/master/settings.example.json
 mv settings.example.json settings.json
 ```
 
@@ -140,7 +140,7 @@ PUBLISHED_PORT=80
 
 And start the container using the following command:
 ```shell
-docker run --rm --entrypoint="" -p=127.0.0.1:$PUBLISHED_PORT:$SERVICE_PORT --volume=$SETTINGS:/metrics/settings.json ghcr.io/lowlighter/metrics:$VERSION npm start
+docker run --rm --entrypoint="" -p=127.0.0.1:$PUBLISHED_PORT:$SERVICE_PORT --volume=$SETTINGS:/metrics/settings.json ghcr.io/embedx-io/metrics:$VERSION npm start
 ```
 
 ## 4️ Add images to your profile `README.md`

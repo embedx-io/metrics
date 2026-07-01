@@ -43,7 +43,7 @@ If the token owner is not the repository owner, then the `user` option must be s
 <!--examples-->
 ```yaml
 name: Example
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   template: repository
   filename: metrics.repository.svg
@@ -53,7 +53,7 @@ with:
   plugin_lines: yes
   plugin_followup: yes
   plugin_projects: yes
-  plugin_projects_repositories: lowlighter/metrics/projects/1
+  plugin_projects_repositories: embedx-io/metrics/projects/1
 
 ```
 <!--/examples-->

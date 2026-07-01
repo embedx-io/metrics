@@ -69,7 +69,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>array</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>array</code>
 <i>(comma-separated)</i>
 <br>
 <b>default:</b> base<br>
@@ -81,7 +82,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <i>(0 ≤
 𝑥)</i>
 <br>
@@ -94,7 +96,8 @@ All product and company names are trademarks™ or registered® trademarks of th
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <br>
 <b>zero behaviour:</b> disable</br>
 <b>default:</b> 1<br></td>
@@ -109,7 +112,8 @@ after returning correct results upon performing another query.</p>
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>number</code>
 <i>(0 ≤
 𝑥)</i>
 <br>
@@ -124,7 +128,7 @@ after returning correct results upon performing another query.</p>
 <!--examples-->
 ```yaml
 name: Compact display in base plugin
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.lines.svg
   token: ${{ secrets.METRICS_TOKEN }}
@@ -135,7 +139,7 @@ with:
 ```
 ```yaml
 name: Repositories and diff history
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.lines.history.svg
   token: ${{ secrets.METRICS_TOKEN }}
@@ -148,7 +152,7 @@ with:
   repositories_skipped: |
     @use.patterns
     */*
-    +lowlighter/metrics
+    +embedx-io/metrics
 
 ```
 <!--/examples-->

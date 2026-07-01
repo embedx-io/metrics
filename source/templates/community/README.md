@@ -55,20 +55,20 @@ Some templates may accept additional custom parameters that can be passed throug
 <!--examples-->
 ```yaml
 name: Using a community template
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   token: ${{ secrets.METRICS_TOKEN }}
   template: "@classic"
-  setup_community_templates: lowlighter/metrics@master:classic
+  setup_community_templates: embedx-io/metrics@master:classic
 
 ```
 ```yaml
 name: Using a trusted community template
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   token: ${{ secrets.METRICS_TOKEN }}
   template: "@terminal"
-  setup_community_templates: lowlighter/metrics@master:terminal+trust
+  setup_community_templates: embedx-io/metrics@master:terminal+trust
 
 ```
 <!--/examples-->

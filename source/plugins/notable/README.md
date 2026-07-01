@@ -133,7 +133,8 @@ Some repositories may not be able to reported advanced stats and in the case the
 <img width="900" height="1" alt=""></td>
   </tr>
   <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
+    <td nowrap="nowrap">✨ On <code>master</code>/<code>main</code><br>
+<b>type:</b> <code>boolean</code>
 <br>
 <b>default:</b> no<br></td>
   </tr>
@@ -152,7 +153,7 @@ For each of the above, a badge is awarded. Its color and progress depends of the
 <!--examples-->
 ```yaml
 name: Contributions
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.notable.svg
   token: ${{ secrets.METRICS_TOKEN }}
@@ -162,7 +163,7 @@ with:
 ```
 ```yaml
 name: Indepth analysis
-uses: lowlighter/metrics@latest
+uses: embedx-io/metrics@latest
 with:
   filename: metrics.plugin.notable.indepth.svg
   token: ${{ secrets.METRICS_TOKEN }}
