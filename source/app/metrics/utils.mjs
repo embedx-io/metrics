@@ -26,7 +26,7 @@ import readline from "readline"
 import htmlsanitize from "sanitize-html"
 import sharp from "sharp"
 import git from "simple-git"
-import SVGO from "svgo"
+import { optimize } from "svgo"
 import url from "url"
 import util from "util"
 import xmlformat from "xml-formatter"
@@ -716,17 +716,15 @@ export const svg = {
         console.debug("metrics/svg/optimize/svg > this feature require experimental feature flag --optimize-svg")
         return rendered
       }
-      const {error, data: optimized} = await SVGO.optimize(rendered, {
+      const {error, data: optimized} = await optimize(rendered, {
         multipass: true,
-        plugins: SVGO.extendDefaultPlugins([
-          //Additional cleanup
+        plugins: [
           {name: "cleanupListOfValues"},
           {name: "removeRasterImages"},
           {name: "removeScriptElement"},
-          //Force CSS style consistency
           {name: "inlineStyles", active: false},
           {name: "removeViewBox", active: false},
-        ]),
+        ],
       })
       if (error)
         throw new Error(`Could not optimize SVG: \n${error}`)
