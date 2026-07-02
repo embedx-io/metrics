@@ -50,8 +50,9 @@ export const puppeteer = {
       ignoreDefaultArgs: ["--disable-extensions"],
     })
   },
-  headless: "new",
-  events: ["load", "domcontentloaded", "networkidle2"],
+  headless: true,
+  events: ["load", "domcontentloaded"],
+  timeout: 30000,
 }
 
 /**Plural formatter */
@@ -533,7 +534,7 @@ export const svg = {
     page
       .on("console", message => console.debug(`metrics/svg/resize > puppeteer > ${message.text()}`))
       .on("pageerror", error => console.debug(`metrics/svg/resize > puppeteer > ${error.message}`))
-    await page.setContent(rendered, {waitUntil: puppeteer.events})
+    await page.setContent(rendered, {waitUntil: puppeteer.events, timeout: puppeteer.timeout})
     console.debug("metrics/svg/resize > loaded svg successfully")
     await page.addStyleTag({content: "body { margin: 0; padding: 0; }"})
     let mime = "image/svg+xml"
