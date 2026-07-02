@@ -15,7 +15,8 @@
     "preview": "node .github/scripts/preview.mjs",
     "linter": "eslint source/**/*.mjs --quiet",
     "dev": "nodemon source/app/web/index.mjs -e mjs,css,ejs,json",
-    "indepth": "node source/plugins/languages/analyzers.mjs"
+    "indepth": "node source/plugins/languages/analyzers.mjs",
+    "postinstall": "node .github/scripts/postinstall.mjs"
   },
   "repository": {
     "type": "git",
