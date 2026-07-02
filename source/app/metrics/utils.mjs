@@ -21,7 +21,7 @@ import PNG from "png-js"
 import prism from "prismjs"
 import prism_lang from "prismjs/components/index.js"
 import _puppeteer from "puppeteer"
-import purgecss from "purgecss"
+import { PurgeCSS } from "purgecss"
 import readline from "readline"
 import htmlsanitize from "sanitize-html"
 import sharp from "sharp"
@@ -692,7 +692,7 @@ export const svg = {
       const content = [{raw: rendered, extension: "html"}]
 
       //Purge CSS
-      const purged = await new purgecss.PurgeCSS().purge({content, css})
+      const purged = await new PurgeCSS().purge({content, css})
       const optimized = `<style>${csso(purged.map(({css}) => css).join("\n")).css}</style>`
       return rendered.replace(cleaned, optimized)
     },
